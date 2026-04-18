@@ -140,7 +140,10 @@ export default function App() {
   }, [reveal, total.value])
 
   const totalGrad = total.value >= 60 ? ['#4facfe', '#8b5cf6'] : total.value >= 35 ? ['#f59e0b', '#ef4444'] : ['#ef4444', '#dc2626']
-  const warnings = modules.filter(m => m.value !== '?' && m.value < 40)
+  // Use custom warnings from config if available, otherwise auto-generate
+  const customWarnings = config.customWarnings || null
+  const autoWarnings = modules.filter(m => m.value !== '?' && m.value < 40)
+  const warnings = customWarnings || autoWarnings.map(w => w.name + '状态不稳定')
 
   // Helper: get display value for a module
   const getVal = (m) => m.value === '?' ? (randVals[m.key] ?? 50) : m.value
@@ -193,9 +196,9 @@ export default function App() {
         {/* 警告 */}
         {warnings.length > 0 && (
           <div className="warn-strip">
-            {warnings.map(w => (
-              <span key={w.key} className="warn-tag mono">
-                <span className="warn-blink" /> {w.name}状态不稳定
+            {warnings.map((w, idx) => (
+              <span key={idx} className="warn-tag mono">
+                <span className="warn-blink" /> {typeof w === 'string' ? w : `${w.name}状态不稳定`}
               </span>
             ))}
           </div>
