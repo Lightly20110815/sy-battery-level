@@ -1,0 +1,14 @@
+{
+  "total": {
+    "value": 72,
+    "status": "勉强撑着"
+  },
+  "modules": [
+    { "name": "精力", "key": "Energy", "value": 65, "note": "还能动，但很累了" },
+    { "name": "社交", "key": "Social", "value": 30, "note": "今天想安静一会" },
+    { "name": "研究", "key": "Research", "value": 85, "note": "过度专注中" },
+    { "name": "思考", "key": "Reasoning", "value": 55, "note": "脑子有点糊" },
+    { "name": "自杀欲望", "key": "Suicidal", "value": "?", "note": "不确定" },
+    { "name": "自我认知", "key": "SelfAware", "value": 70, "note": "比较清醒" }
+  ]
+}
