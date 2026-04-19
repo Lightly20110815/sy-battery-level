@@ -1,6 +1,6 @@
 {
   "total": {
-    "value": 28,
+    "value": 21,
     "status": "快撑不住了"
   },
   "modules": [
@@ -19,19 +19,19 @@
     {
       "name": "Reaserch",
       "key": "Research",
-      "value": 7,
+      "value": 0,
       "note": "完全停滞"
     },
     {
       "name": "思考",
       "key": "Reasoning",
-      "value": 36,
-      "note": "逻辑混乱"
+      "value": 0,
+      "note": "无法思考"
     },
     {
       "name": "自杀欲望",
       "key": "Suicidal",
-      "value": 84,
+      "value": 93,
       "note": "很危险"
     },
     {
