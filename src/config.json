@@ -1,48 +1,49 @@
 {
   "total": {
-    "value": 14,
-    "status": "严重不足"
+    "value": 36,
+    "status": "快撑不住了"
   },
   "modules": [
     {
       "name": "Energy",
       "key": "Energy",
-      "value": 0,
+      "value": 16,
       "note": "完全耗尽"
     },
     {
       "name": "社交",
       "key": "Social",
-      "value": 27,
-      "note": "不想说话"
+      "value": 100,
+      "note": "很想聊天"
     },
     {
-      "name": "研究",
+      "name": "Reaserch",
       "key": "Research",
-      "value": 8,
+      "value": 0,
       "note": "完全停滞"
     },
     {
       "name": "思考",
       "key": "Reasoning",
-      "value": 22,
-      "note": "逻辑混乱"
+      "value": 7,
+      "note": "无法思考"
     },
     {
       "name": "自杀欲望",
       "key": "Suicidal",
-      "value": "?",
-      "note": "不确定"
+      "value": 71,
+      "note": "不太好"
     },
     {
       "name": "自我认知",
       "key": "SelfAware",
-      "value": "?",
-      "note": "不确定"
+      "value": 22,
+      "note": "不太确定"
     }
   ],
   "customWarnings": [
     "Energy Depleted",
-    "社交状态不稳定"
+    "社交状态不稳定",
+    "Reaserch Failed!"
   ]
 }
