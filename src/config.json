@@ -1,13 +1,13 @@
 {
   "total": {
-    "value": 36,
+    "value": 35,
     "status": "快撑不住了"
   },
   "modules": [
     {
       "name": "Energy",
       "key": "Energy",
-      "value": 16,
+      "value": 1,
       "note": "完全耗尽"
     },
     {
@@ -25,25 +25,24 @@
     {
       "name": "思考",
       "key": "Reasoning",
-      "value": 7,
+      "value": 0,
       "note": "无法思考"
     },
     {
       "name": "自杀欲望",
       "key": "Suicidal",
-      "value": 71,
+      "value": 74,
       "note": "不太好"
     },
     {
       "name": "自我认知",
       "key": "SelfAware",
-      "value": 22,
-      "note": "不太确定"
+      "value": "?",
+      "note": "不确定"
     }
   ],
   "customWarnings": [
     "Energy Depleted",
-    "社交状态不稳定",
     "Reaserch Failed!"
   ]
 }
