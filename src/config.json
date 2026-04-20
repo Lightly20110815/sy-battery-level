@@ -1,38 +1,38 @@
 {
   "total": {
-    "value": 0,
-    "status": "睡觉!"
+    "value": 40,
+    "status": "有点累了"
   },
   "modules": [
     {
       "name": "Energy",
       "key": "Energy",
-      "value": "?",
-      "note": "不确定"
+      "value": 16,
+      "note": "完全耗尽"
     },
     {
       "name": "社交",
       "key": "Social",
-      "value": "?",
-      "note": "不确定"
+      "value": 71,
+      "note": "可以社交"
     },
     {
       "name": "Reaserch",
       "key": "Research",
-      "value": "?",
-      "note": "不确定"
+      "value": 12,
+      "note": "完全停滞"
     },
     {
       "name": "思考",
       "key": "Reasoning",
-      "value": "?",
-      "note": "不确定"
+      "value": 15,
+      "note": "无法思考"
     },
     {
       "name": "自杀欲望",
       "key": "Suicidal",
-      "value": "?",
-      "note": "不确定"
+      "value": 84,
+      "note": "很危险"
     },
     {
       "name": "自我认知",
@@ -43,7 +43,6 @@
   ],
   "customWarnings": [
     "Energy Depleted",
-    "Reaserch Failed!",
-    "Sleeping!"
+    "Reaserch Failed!"
   ]
 }
