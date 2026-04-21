@@ -1,31 +1,31 @@
 {
   "total": {
-    "value": 40,
-    "status": "有点累了"
+    "value": 21,
+    "status": "快撑不住了"
   },
   "modules": [
     {
       "name": "Energy",
       "key": "Energy",
-      "value": 16,
+      "value": 6,
       "note": "完全耗尽"
     },
     {
       "name": "社交",
       "key": "Social",
-      "value": 71,
-      "note": "可以社交"
+      "value": 22,
+      "note": "不想说话"
     },
     {
       "name": "Reaserch",
       "key": "Research",
-      "value": 12,
+      "value": 0,
       "note": "完全停滞"
     },
     {
       "name": "思考",
       "key": "Reasoning",
-      "value": 15,
+      "value": 0,
       "note": "无法思考"
     },
     {
@@ -37,8 +37,8 @@
     {
       "name": "自我认知",
       "key": "SelfAware",
-      "value": "?",
-      "note": "不确定"
+      "value": 12,
+      "note": "？？"
     }
   ],
   "customWarnings": [
