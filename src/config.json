@@ -1,20 +1,20 @@
 {
   "total": {
-    "value": 21,
-    "status": "快撑不住了"
+    "value": 14,
+    "status": "严重不足"
   },
   "modules": [
     {
       "name": "Energy",
       "key": "Energy",
-      "value": 6,
+      "value": 15,
       "note": "完全耗尽"
     },
     {
       "name": "社交",
       "key": "Social",
-      "value": 22,
-      "note": "不想说话"
+      "value": 0,
+      "note": "完全封闭"
     },
     {
       "name": "Reaserch",
@@ -31,13 +31,13 @@
     {
       "name": "自杀欲望",
       "key": "Suicidal",
-      "value": 84,
-      "note": "很危险"
+      "value": 66,
+      "note": "不太好"
     },
     {
       "name": "自我认知",
       "key": "SelfAware",
-      "value": 12,
+      "value": 0,
       "note": "？？"
     }
   ],
